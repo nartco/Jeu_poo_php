@@ -28,5 +28,11 @@
             $this->_race = 'chien' ? $type_cri = 'aboyer' : $type_cri = 'miauler';
             echo 'je vais ' . $type_cri;
         }
+        public function cri()
+        {
+            $type_cri;
+            $this->_race = 'chien' ? $type_cri = 'aboyer' : $type_cri = 'miauler';
+            echo $type_cri;
+        }
     }
 ?>
